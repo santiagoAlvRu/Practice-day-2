@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+    <legend align="center"><b>Registration Form</b></legend>
+<form action="">
+<label> First Name:
+    <input type="text" name="first-name" minlength="2" maxlength="25" placeholder="Carlos" required>
+</label>
+<br>
+<br>
+<label>Last Name:
+    <input type="text" name="last-name" minlength="3" maxlength="30" placeholder="Sanchez" required>
+</label>
+<br>
+<br>
+<label> Course:
+<select name="course" id="course">
+    <optgroup label="please select one" selected>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="another">Another one</option>
+</optgroup>
+</select>
+</label>
+<br>
+<br>
+<label for="Gender">Gender:</label>
+<br>
+    <label>
+        <input type="radio" name="gender">Male
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="gender">Female
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="gender">Other
+    </label>
+    <br>
+    <br>
+    <label>Hobbies:
+        <br>
+<input type="checkbox">Programming
+<br>
+<input type="checkbox">Basketball
+<br>
+<input type="checkbox">Football
+<br>
+<input type="checkbox">Reading Novel
+    </label>
+    <br>
+    <br>
+    <label>Phone:
+        <input type="tel">
+    </label>
+    <br>
+    <br>
+    <label for="address">Address:
+    <br>
+<textarea name="address" id="address" rows="5" cols="40"></textarea>
+</label>
+<br>
+<br>
+<label>Email:
+    <input type="email" required>
+</label>
+<br>
+<br>
+<label>Password:
+<input type="password" required>
+</label>
+<br>
+<label>
+    <input type="submit" value="Send">
+</label>
+<label>
+    <input type="reset">
+</label>
+</form>
+</fieldset>
+</body>
+
+</html>

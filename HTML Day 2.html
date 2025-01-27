@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This web-site is about practice coding">
+    <meta name="developer" content="Santiago Alvarez Ruiz">
+    <link rel="stylesheet" href="style.css">
+    <title>Form practice</title>
+</head>
+<body>
+<h1>This is an Iframe example</h1>
+<p>in the folowing step I will add it to my HTML page</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2O8pkybH6po?si=K4WZZFDO75VnQlFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<form>
+<fieldset>
+    <legend>Personal Info</legend>
+<div>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" placeholder="Put your first name here" required>
+</div>
+
+<div>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname" placeholder="Put your last name here" required>
+</div>
+
+<div>
+    <label for="email">e-mail:</label>
+    <input type="email" id="email" name="email" placeholder="name@email.com">
+</div>
+
+<div>
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="telephone" placeholder="Put your phone here" required>
+</div>
+
+
+<div>
+    <label for="date">Date of birth:</label>
+<input type="date" id="date" name="date" placeholder="Please select your birth date" required>
+</div>
+
+
+<div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Put your Password here" maxlength="12" required>
+</div>
+
+
+<div>
+    <label for="title">Title:</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." name="title" value="Mr.">
+
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="phD." name="title" value="PhD.">
+</div>
+
+<div>
+    <label for="payment-method">Payment options</label>
+    <select name="payment" id="payment-method" required>
+        <optgroup label="select-one-or-more">
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Other">Other</option>
+    </optgroup>
+    </select>
+</div>
+
+<div>
+    <label for="subscribe">Subscribe for newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe">
+</div>
+
+<div>
+    <input type="reset">
+</div>
+
+<div>
+    <input type="submit" value="Send">
+</div>
+</fieldset>
+<legend>Extra Information:</legend>
+
+<fieldset>
+<div>
+    <label for="chunk">Add your comment here:</label>
+    <textarea name="area" id="chunk" rows="5" cols="20"></textarea>
+</div>
+</fieldset>
+</form>
+
+</body>
+<br>
+<br>
+<footer>All Right Reserved &copy;YouTube</footer>
+
+</html>
