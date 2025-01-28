@@ -10,12 +10,12 @@
     <legend align="center"><b>Registration Form</b></legend>
 <form action="">
 <label> First Name:
-    <input type="text" name="first-name" minlength="2" maxlength="25" placeholder="Carlos" required>
+    <input type="text" id="first-name" name="first-name" minlength="2" maxlength="25" placeholder="Carlos" required>
 </label>
 <br>
 <br>
 <label>Last Name:
-    <input type="text" name="last-name" minlength="3" maxlength="30" placeholder="Sanchez" required>
+    <input type="text" id="last-name" name="last-name" minlength="3" maxlength="30" placeholder="Sanchez" required>
 </label>
 <br>
 <br>
@@ -33,15 +33,15 @@
 <label for="Gender">Gender:</label>
 <br>
     <label>
-        <input type="radio" name="gender">Male
+        <input type="radio" id="male" name="gender">Male
     </label>
     <br>
     <label>
-        <input type="radio" name="gender">Female
+        <input type="radio" id="female" name="gender">Female
     </label>
     <br>
     <label>
-        <input type="radio" name="gender">Other
+        <input type="radio" id="other" name="gender">Other
     </label>
     <br>
     <br>
@@ -49,24 +49,24 @@
         </label>
         <br>
         <label>
-<input type="checkbox" >Programming
+<input type="checkbox" id="checkbox" >Programming
 </label>
 <br>
 <label>
-<input type="checkbox">Basketball
+<input type="checkbox" id="checkbox">Basketball
 </label>
 <br>
 <label>
-<input type="checkbox">Football
+<input type="checkbox" id="checkbox">Football
 </label>
 <br>
 <label>
-<input type="checkbox">Reading Novel
+<input type="checkbox" id="checkbox">Reading Novel
 </label>
     <br>
     <br>
     <label>Phone:
-        <input type="tel">
+        <input type="tel" id="tel">
     </label>
     <br>
     <br>
@@ -77,19 +77,19 @@
 <br>
 <br>
 <label>Email:
-    <input type="email" required>
+    <input type="email" id="email" required>
 </label>
 <br>
 <br>
 <label>Password:
-<input type="password" required>
+<input type="password" id="password" required>
 </label>
 <br>
 <label>
-    <input type="submit" value="Send">
+    <input type="submit" id="submit" value="Send">
 </label>
 <label>
-    <input type="reset">
+    <input type="reset" id="reset">
 </label>
 </form>
 </fieldset>
